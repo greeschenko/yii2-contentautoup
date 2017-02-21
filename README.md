@@ -6,7 +6,7 @@ Installation
 
 add to composer.json
 
-'''
+```
 "repositories": [
     ...
     {
@@ -21,12 +21,12 @@ add to composer.json
     "greeschenko/yii2-contentautoup": "*"
     ...
 },
-'''
+```
 
 Usage
 -----
 
-'''
+```
 ...
 use greeschenko\contentautoup\AutoUpContent;
 ...
@@ -34,4 +34,4 @@ use greeschenko\contentautoup\AutoUpContent;
     'url' => '/controller/action', //your data update action
     'interval' => '3000', //time interval in milisecond
 ])?>
-'''
+```
