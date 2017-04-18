@@ -13,6 +13,5 @@ class Assets extends AssetBundle
     public $depends = [
         'yii\web\JqueryAsset',
         'yii\bootstrap\BootstrapAsset',
-        'rmrevin\yii\fontawesome\AssetBundle',
     ];
 }
